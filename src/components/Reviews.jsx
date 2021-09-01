@@ -1,4 +1,18 @@
-const Reviews = ({ reviews }) => {
+import { useEffect, useState } from "react";
+
+const Reviews = () => {
+
+    const [reviews, setReviews] = useState([]);
+    
+    useEffect( () => {
+        fetch('https://greg-example-api.herokuapp.com/api/reviews')
+        .then( (res) => res.json())
+        .then( (data) => {
+            console.log(data);
+            setReviews(data.reviews);
+        });
+    }, []);
+
     return (
         <ul>
             {
