@@ -1,6 +1,6 @@
 const Nav = () => {
     return (
-        <div>
+        <div className="centre_buttons">
             <button>All</button>
             <button>FPS</button>
             <button>RTS</button>

@@ -47,6 +47,8 @@ h2 {
 
 button {
   text-align: center;
+  background-color: darkseagreen;
+  margin: 5px;
 }
 
 li {
@@ -75,4 +77,8 @@ li {
   border-color: black;
   border-style: solid;
   padding: 1em;
+}
+
+.centre_buttons {
+  text-align: center;
 }
