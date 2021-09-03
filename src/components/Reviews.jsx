@@ -21,6 +21,7 @@ const Reviews = ({ reviews, setReviews }) => {
   return (
     <div>
       <div className="centre_buttons">
+        <p>Please choose a category: </p>
         <button onClick={() => resetAllReviews()}>All</button>
         <button onClick={() => displayReviewsByCategory("dexterity")}>
           dexterity

@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <h1>Reviews</h1>
+        <h1>Board Game Reviews</h1>
     )
 };
 

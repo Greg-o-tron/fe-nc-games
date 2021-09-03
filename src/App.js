@@ -1,6 +1,5 @@
 import "./App.css";
-// import Header from "./components/Header";
-// import Nav from "./components/Nav";
+import Header from "./components/Header";
 import Reviews from "./components/Reviews";
 import { useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -12,6 +11,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path='/'>
+          <Header />
           <Reviews reviews={reviews} setReviews={setReviews}/>
         </Route>
       </Switch>

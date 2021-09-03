@@ -62,12 +62,12 @@ li {
 
 .category {
   text-align: right;
-  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .preview {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   float: right;
   object-fit: cover;
 }
