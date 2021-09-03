@@ -52,7 +52,7 @@ const Reviews = ({ reviews, setReviews }) => {
           return (
             <li key={review.review_id}>
               <p className="category">{review.category}</p>
-              <div>Posted: {moment(review.created_at).startOf('day').fromNow()}</div>
+              <div>Posted: {moment(review.created_at).format('LLL')}</div>
               <img className="preview" src={review.review_img_url}></img>
               <h2>{review.title}</h2>
               <em>by: {review.owner}</em>

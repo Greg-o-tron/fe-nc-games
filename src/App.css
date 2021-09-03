@@ -46,18 +46,27 @@ h2 {
 }
 
 button {
-  text-align: center;
-  background-color: darkseagreen;
+  text-align: center;  
   margin: 5px;
 }
 
 li {
   list-style: none;
+  background-color: darkkhaki;
   border-width: 1px;
   border-color: black;
   border-style: solid;
   padding: 1em;
   margin: 2em;
+  box-shadow: 2px 2px;
+}
+
+li:hover {
+  box-shadow: 2px 2px 2px 2px;
+}
+
+li:active {
+  box-shadow: 0px;
 }
 
 .category {
